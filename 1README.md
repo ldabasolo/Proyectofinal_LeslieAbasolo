@@ -3,7 +3,7 @@
 
 ``Objetivo para realizar este proyecto.``
 
-El objetivo principal de secuenciar el genoma de la cepa T5 de Enterococcus faecalis es identificar y caracterizar los genes asociados con la resistencia a antibióticos.
+El objetivo principal de secuenciar el genoma de varias cepas de Enterococcus faecalis es identificar y caracterizar los genes asociados con la resistencia a antibióticos. Gen vanA
 Al obtener y analizar la secuencia del ADN de esta bacteria, se pueden descubrir los mecanismo genéticos que confieren resistencia, lo cual es crucial para el desarrollo de nuevas estrategias de tratamiento y control de infecciones causadas por E. faecalis.
 
 ``Relevancia: ``
