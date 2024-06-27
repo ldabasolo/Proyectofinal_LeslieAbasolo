@@ -1,51 +1,77 @@
 Comandos de la terminal bash
 
+ldaba@LAPTOP-370EBUPF MINGW64 ~/OneDrive/Escritorio/iqtree-2.3.4-Windows/iqtree-2.3.4-Windows/bin
+$ cd
+
+ldaba@LAPTOP-370EBUPF MINGW64 ~
+$ cd OneDrive
+
+ldaba@LAPTOP-370EBUPF MINGW64 ~/OneDrive
+$ ls
+'Almacén personal.lnk'*   Documentos/   Imágenes/                     'Permiso Circulación PDG2047 .pdf'         desktop.ini       userpref.po
+ CSB/                     Escritorio/  'Introducción a OneDrive.pdf'   RPT_CARTERA_IND_QUI-V-TAG_20230717.xlsm   populus.log.txt
+
+ldaba@LAPTOP-370EBUPF MINGW64 ~/OneDrive
+$ cd Escritorio/
+
 ldaba@LAPTOP-370EBUPF MINGW64 ~/OneDrive/Escritorio
-$ cd ncbi_dataset\ \(1\)
-
-ldaba@LAPTOP-370EBUPF MINGW64 ~/OneDrive/Escritorio/ncbi_dataset (1)
 $ ls
-README.md  ncbi_dataset/
+'A quien corresponda.docx'     'Datos Secuencia.txt'                      'Leslie (Persona 1) - Chrome.lnk'*                                              'PUCE 2'/         desktop.ini
+'A quien corresponda.pdf'      'ENCINTA CONTROL.xlsm'                      Less/                                                                           Pasaporte.docx   iqtree-2.3.4-Windows/
+ Arbol                          Encinta/                                  'Microsoft Edge.lnk'*                                                            Pasaporte.pdf   'ncbi_dataset (1)'/
+ Arbol.jpg                     'Grupo 2 Propuesta de investigación.docx'  'Microsoft Teams classic.lnk'*                                                   SAMN00847609    'ncbi_dataset (1).zip'
+'Carta motivacional.docx'       IMF/                                      'Monografia aporte primer parcial - Leslie Abasolo.docx'                         Tarea.docx
+'Carta motivacional.pdf'        Janeth/                                   'Monografía Leslie Abásolo semana 11.docx'                                       Tarea.pdf
+ Claves.xlsx                    Leslie/                                   'OneDrive - Pontificia Universidad Católica del Ecuador - Acceso directo.lnk'*   Troskty/
+'Comandos de la terminal.txt'  'Leslie (Janeth) - Chrome.lnk'*             PROGRAMA-MASTER-UCM-2023-24.pdf                                                 Zoom.lnk*
 
-ldaba@LAPTOP-370EBUPF MINGW64 ~/OneDrive/Escritorio/ncbi_dataset (1)
-$ cd ncbi_dataset/
+ldaba@LAPTOP-370EBUPF MINGW64 ~/OneDrive/Escritorio
+$ cd iqtree-2.3.4-Windows/
 
-ldaba@LAPTOP-370EBUPF MINGW64 ~/OneDrive/Escritorio/ncbi_dataset (1)/ncbi_dataset
+ldaba@LAPTOP-370EBUPF MINGW64 ~/OneDrive/Escritorio/iqtree-2.3.4-Windows
 $ ls
-data/
+iqtree-2.3.4-Windows/
 
-ldaba@LAPTOP-370EBUPF MINGW64 ~/OneDrive/Escritorio/ncbi_dataset (1)/ncbi_dataset
-$ cd data/
+ldaba@LAPTOP-370EBUPF MINGW64 ~/OneDrive/Escritorio/iqtree-2.3.4-Windows
+$ cd iqtree-2.3.4-Windows/
 
-ldaba@LAPTOP-370EBUPF MINGW64 ~/OneDrive/Escritorio/ncbi_dataset (1)/ncbi_dataset/data
+ldaba@LAPTOP-370EBUPF MINGW64 ~/OneDrive/Escritorio/iqtree-2.3.4-Windows/iqtree-2.3.4-Windows
 $ ls
-GCA_000393015.1/            data_summary.tsv
-assembly_data_report.jsonl  dataset_catalog.json
+bin/  example.cf  example.nex  example.phy  models.nex
 
-ldaba@LAPTOP-370EBUPF MINGW64 ~/OneDrive/Escritorio/ncbi_dataset (1)/ncbi_dataset/data
-$ cd GCA_000393015.1/
+ldaba@LAPTOP-370EBUPF MINGW64 ~/OneDrive/Escritorio/iqtree-2.3.4-Windows/iqtree-2.3.4-Windows
+$ cd bin/
 
-ldaba@LAPTOP-370EBUPF MINGW64 ~/OneDrive/Escritorio/ncbi_dataset (1)/ncbi_dataset/data
+ldaba@LAPTOP-370EBUPF MINGW64 ~/OneDrive/Escritorio/iqtree-2.3.4-Windows/iqtree-2.3.4-Windows/bin
 $ ls
-GCA_000393015.1/            data_summary.tsv
-assembly_data_report.jsonl  dataset_catalog.json
+iqtree2-click.exe*                                   muscle-I20240627-023943-0439-69756544-p1m.aln-fasta.bionj      muscle-I20240627-023943-0439-69756544-p1m.aln-fasta.iqtree
+iqtree2.exe*                                         muscle-I20240627-023943-0439-69756544-p1m.aln-fasta.boottrees  muscle-I20240627-023943-0439-69756544-p1m.aln-fasta.log
+libiomp5md.dll*                                      muscle-I20240627-023943-0439-69756544-p1m.aln-fasta.ckp.gz     muscle-I20240627-023943-0439-69756544-p1m.aln-fasta.mldist
+muscle-I20240627-023943-0439-69756544-p1m.aln-fasta  muscle-I20240627-023943-0439-69756544-p1m.aln-fasta.contree    muscle-I20240627-023943-0439-69756544-p1m.aln-fasta.treefile
 
-ldaba@LAPTOP-370EBUPF MINGW64 ~/OneDrive/Escritorio/ncbi_dataset (1)/ncbi_dataset/data
-$ cd GCA_000393015.1/
+ldaba@LAPTOP-370EBUPF MINGW64 ~/OneDrive/Escritorio/iqtree-2.3.4-Windows/iqtree-2.3.4-Windows/bin
+===> ASSIGN BOOTSTRAP SUPPORTS TO THE TREE FROM ORIGINAL ALIGNMENT
 
-ldaba@LAPTOP-370EBUPF MINGW64 ~/OneDrive/Escritorio/ncbi_dataset (1)/ncbi_dataset/data/GCA_000393015.1
-$ ls
-GCA_000393015.1_Ente_faec_T5_V1_genomic.fna
+Reading tree muscle-I20240627-023943-0439-69756544-p1m.aln-fasta.treefile ...
+unrooted tree detected
+Reading tree(s) file muscle-I20240627-023943-0439-69756544-p1m.aln-fasta.boottrees ...
+1000 tree(s) loaded (0 rooted and 1000 unrooted)
+Rescaling split weights by 0.100
+98 splits found
+Creating bootstrap support values...
+Tree with assigned support written to muscle-I20240627-023943-0439-69756544-p1m.aln-fasta.treefile
 
-ldaba@LAPTOP-370EBUPF MINGW64 ~/OneDrive/Escritorio/ncbi_dataset (1)/ncbi_dataset/data/GCA_000393015.1
-$ head GCA_000393015.1_Ente_faec_T5_V1_genomic.fna
->KB944666.1 Enterococcus faecalis T5 genomic scaffold acAro-supercont1.1, whole genome shotgun sequence
-AAATCATCATCATTGTTATAAGTCACCGCATAGCTTGGTGCTTTAGTCGCGGTCAAGGTGTTTGGCTTGGTTTTGCCTTT
-GTACCAACCTTTGAATTTGTAGGTTTTGCCACCTGTTGTGTAGGTGTCAGGTAAGGTACCAGCTTGTTTGAACGTGAAAG
-CATTGCTGGTCATTGGTATTTTTTTATTTTGCGTGAAACCTGTTGGCGGCGTGATTTTAGTGCCGTTGGTGTCCACGAAG
-TTTTCGGTGACTTGTTTACGGGTGACTTTGTAGTTCATCGTATGTTTGTAATTAGTAGTCCCATCAAAGCCCATCAAAGT
-TACATTTCTTTGATTAGGCTGATCTTTCCCACCTATTCTTAACAAACGCGGTATTGTGGAAGCAGATCCATTAGCTCCAA
-AAATAGCATTAATAGAAAATCTCTGATTAGTATTTTTGATAAAAGCTCTTTCTAAAGGATGTAAAATATTAGGGAAATCA
-ATCAAGATTGGGTCTATACCAACATATCCGACTAGATAATCAGCAGCTTGCAATGACGTATTCATCACTTCAATCTTATC
-TACATATTTCAACTCATTGGTGATTGTTAAATCGTGTAACCCGTATTCACGCTTATCGTAGACATCCCCTGTTACATTTC
-CGTCATAAGTAGCCGAAATTGGAATACGTGACTGTGTTTCAATCTTATATTTATTGGATTGACTAGGATCTTTTGAACCA
+Analysis results written to:
+  IQ-TREE report:                muscle-I20240627-023943-0439-69756544-p1m.aln-fasta.iqtree
+  Maximum-likelihood tree:       muscle-I20240627-023943-0439-69756544-p1m.aln-fasta.treefile
+  Likelihood distances:          muscle-I20240627-023943-0439-69756544-p1m.aln-fasta.mldist
+  Screen log file:               muscle-I20240627-023943-0439-69756544-p1m.aln-fasta.log
+
+Total CPU time for bootstrap: 1256.594 seconds.
+Total wall-clock time for bootstrap: 1214.311 seconds.
+
+Non-parametric bootstrap results written to:
+  Bootstrap trees:          muscle-I20240627-023943-0439-69756544-p1m.aln-fasta.boottrees
+  Consensus tree:           muscle-I20240627-023943-0439-69756544-p1m.aln-fasta.contree
+
+Date and Time: Wed Jun 26 21:13:30 2024
